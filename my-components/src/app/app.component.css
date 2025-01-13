@@ -1,0 +1,12 @@
+.background {
+    height: 250px;
+    width: 100vw;
+}
+
+#white-area {
+    background-color: white;
+}
+
+#black-area {
+    background-color: black;
+}

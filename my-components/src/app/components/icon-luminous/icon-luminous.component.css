@@ -1,0 +1,30 @@
+@keyframes mouseHover {
+    0% {
+        box-shadow: inset 0px 0px 10px var(--icon-color, inherit), 0px 0px 50px var(--icon-color, inherit), 0px 0px 150px var(--icon-color, inherit), 0px 0px 350px var(--icon-color, inherit);
+    }
+    100% {
+        box-shadow: inset 0px 0px 10px var(--icon-color, inherit), 0px 0px 50px var(--icon-color, inherit), 0px 0px 150px var(--icon-color, inherit), 0px 0px 350px var(--icon-color, inherit), 0px 0px 50px var(--icon-color, inherit), 0px 0px 150px var(--icon-color, inherit), 0px 0px 350px var(--icon-color, inherit);
+    }
+}
+#grade { /*this is just to align the itens*/
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.luminous-icon {
+    background-color: var(--icon-color, inherit);
+    max-width: 80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: inset 0px 0px 10px var(--icon-color, inherit), 0px 0px 50px var(--icon-color, inherit), 0px 0px 150px var(--icon-color, inherit), 0px 0px 350px var(--icon-color, inherit);
+}
+
+.luminous-icon:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+    animation: mouseHover 0.6s ease-in-out 0s forwards;
+}

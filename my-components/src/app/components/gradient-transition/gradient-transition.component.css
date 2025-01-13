@@ -1,0 +1,5 @@
+div {
+    height: 80px;
+    width: 100vw;
+    background: linear-gradient(to bottom, white, black);
+}
